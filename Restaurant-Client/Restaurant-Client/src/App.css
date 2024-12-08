@@ -1,0 +1,33 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black; */
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  align-items: center;
+}
+
+.pagination li {
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+}
+
+.pagination .active {
+  font-weight: 800;
+  font-size: 20px;
+
+  color: rgb(29, 29, 252);
+}
